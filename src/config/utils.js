@@ -1,5 +1,19 @@
 import VueCookies from 'vue-cookies'
 import dtime from 'time-formater'
+import useClipboard from 'vue-clipboard3'
+
+const { toClipboard } = useClipboard();
+
+export const copy = async (str,fn) => {
+    try {
+        await toClipboard(str)
+
+        fn && fn()
+
+    } catch (e) {
+        console.error(e)
+    }
+}
 
 /**
  * 判断客户端类型

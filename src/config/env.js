@@ -12,15 +12,15 @@
  * Created by hacfin005 on 2018/11/22.
  */
 
-var account = $_cloud_config.$clouds_parse('account');
-var open = $_cloud_config.$clouds_parse('opens');
-var baseUrl = account.api_url;
+var portal = $_cloud_config.$clouds_parse('portal');
+var admin = $_cloud_config.$clouds_parse('admin');
+var baseUrl = portal.api_url;
 var company = $_cloud_config.$company;
 var g_loading = []
 export {
     baseUrl,
-    account,
-    open,
+    portal,
+    admin,
     company,
     g_loading
 }

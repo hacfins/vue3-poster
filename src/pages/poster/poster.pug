@@ -1,2 +1,47 @@
 extends ~common/base.pug
+block append scripts
+    script(src=pre_name + "/assets/qrcodejs-0.0.1/qrcode.min.js")
+    script(src=pre_name + "/assets/html2canvas/html2canvas.min.js")
+    script.
+        setRem();
+        //设置rem
+        function setRem() {
+            var htmlDom     = document.documentElement;
+            var windowWidth = htmlDom.clientWidth;
+
+            var proportion = 7.5
+            if (windowWidth >= 480) {
+                windowWidth = 480;
+            }
+
+            var evt                = "onorientationchange" in window ? "orientationchange" : "resize";
+            htmlDom.style.fontSize = windowWidth / proportion + 'px';
+            (function () {
+                document.addEventListener('DOMContentLoaded', function () {
+                    if (!htmlDom.style.fontSize) {
+                        var htmlDomProtect = document.documentElement;
+                        var windowWidth    = htmlDomProtect.clientWidth;
+                        if (windowWidth >= 480) {
+                            windowWidth = 480;
+                        }
+                        htmlDomProtect.style.fontSize = windowWidth / proportion + 'px';
+
+                    }
+                }, false);
+            })();
+
+            window.addEventListener(evt, function () {
+                setTimeout(function () {
+                    var htmlDomProtect = document.documentElement;
+                    var windowWidth    = htmlDomProtect.clientWidth;
+                    if (windowWidth >= 480) {
+                        windowWidth = 480;
+                    }
+                    htmlDomProtect.style.fontSize = windowWidth / proportion + 'px';
+                }, 200);
+            }, false);
+
+            document.body.style.fontSize = "14px";
+
+        }
 

@@ -34,7 +34,7 @@
     "raw-loader": "^4.0.2",
     "sass-loader": "^8.0.2",
     "time-formater": "^1.0.1",
-    "vue-clipboards": "^1.2.4",
+    "vue-clipboard3": "^1.0.1",
     "vue-cookies": "^1.5.6"
   },
   "eslintConfig": {
