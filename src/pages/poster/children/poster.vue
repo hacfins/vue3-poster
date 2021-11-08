@@ -22,12 +22,12 @@
 		mounted(){
 
             this.shareInfo = {
-                start_time:'2021-09-16 14:30',
-                c_id: "4a9a2c773d774d6b8b753cb541a333a9",
-                c_name: "分校1数学-可录制-公开",
-                img_path:'',
-                school_name: "孙雪玲测试机构",
-                speakers:[{
+                start_time:'2021-09-16 14:30',//分享时间
+                title: "分校1数学-可录制-公开",//分享标题
+                share_url:location.origin + '/detail/prepare',//分享地址
+                share_img:'',//分享图片
+                school_name: "孙雪玲测试机构",//分享机构
+                speakers:[{//分享老师
                     avator: "",
                     full_name: "孙雪玲"
                 }],

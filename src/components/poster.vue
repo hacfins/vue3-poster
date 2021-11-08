@@ -68,7 +68,7 @@
                              class="goodsIntro"
                              :style="{top: posterData.goods_position.y + 'px',left:posterData.goods_position.x + 'px'}">
                             <div v-if="posterData.show_goods_img" class="goodsImgBox"
-                                 :style="{backgroundImage:shareInfo.img_path ? 'url('+shareInfo.img_path+')' : 'none'}">
+                                 :style="{backgroundImage:shareInfo.share_img ? 'url('+shareInfo.share_img+')' : 'none'}">
                                 <div class="shopNameMark"
                                      v-if="posterData.default_poster_mark == 'alive_general_cls' || posterStyle == 'alive_cls' || posterStyle == 'price_one_cls' || posterStyle == 'alive_specific_cls' || posterStyle == 'interact_one_cls'">
                                     <template v-if="posterData.default_poster_mark == 'alive_general_cls'">
@@ -89,7 +89,7 @@
                             </div>
                             <div v-if="posterStyle != 'alive_specific_cls'" class="goodsAddInfo" :style="{backgroundImage: posterStyle == 'price_two_cls' ? '' : !posterData.goods_add_bg ? 'none' : 'url('+posterData.goods_add_bg+')',height:posterStyle == 'price_one_cls'? '': 'auto'}">
                                 <div v-if="posterData.default_poster_mark != 'alive_specific_cls'" class="goodsTitle">
-                                    {{shareInfo.c_name}}
+                                    {{shareInfo.title}}
                                 </div>
 
                                 <div v-if="posterStyle == 'alive_general_cls' || posterStyle == 'interact_three_cls'" class="aliveStartTime">
@@ -119,7 +119,7 @@
                                 </div>
                             </div>
                             <div  class="goodsTitle" >
-                                {{shareInfo.c_name}}
+                                {{shareInfo.title}}
                             </div>
                         </div>
 
@@ -468,7 +468,7 @@
                 return e
             },
             linkhref(){
-                return  portal.ui_url + '/detail/prepare?cid='+this.shareInfo.c_id+'';
+                return  this.shareInfo.share_url;
             },
         },
         components: {
@@ -482,11 +482,11 @@
             randomBgColor,
             initShare(){
 
-                if(!this.shareInfo.img_path){
-                    this.shareInfo.img_path = randomPoster(this.shareInfo.c_id)
+                if(!this.shareInfo.share_img){
+                    this.shareInfo.share_img = location.origin + require('assets/fm-1.jpg');
                 }
-                this.compressImg(this.shareInfo.img_path,(src) => {
-                    this.shareInfo.img_path = src
+                this.compressImg(this.shareInfo.share_img,(src) => {
+                    this.shareInfo.share_img = src
                 })
                 var date_str =  timeCustomFormat(this.shareInfo.start_time,'YYYY-MM-DD HH:mm',true);
                 this.shareInfo.pg_name = this.shareInfo.school_name;
@@ -627,7 +627,7 @@
                 if (!location.origin) {
                     location.origin = location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
                 }
-                var shareUrl = portal.ui_url + '/detail/prepare?cid='+this.shareInfo.c_id+'';
+                var shareUrl = this.shareInfo.share_url;
                 var div = document.createElement('div');
                 var code  = new QRCode(div, {
                     text        : shareUrl,
