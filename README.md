@@ -8,30 +8,25 @@
 
 ## poster.vue
 
-```
+``` vue
 <template>
-	<poster :shareInfo="shareInfo"></poster>
+    <poster :shareInfo="shareInfo"></poster>
 </template>
 
 <script>
     import poster from 'components/poster'
-
 	export default {
         data(){
             return{
                 shareInfo:{
-
+                
 				}
 			}
 		},
 		components: {
             poster
 		},
-		setup() {
-
-		},
 		mounted(){
-
             this.shareInfo = {
                 start_time:'2021-09-16 14:30',//分享时间
                 title: "分校1数学-可录制-公开",//分享标题
@@ -47,7 +42,6 @@
 		}
 	}
 </script>
-
 <style lang="scss" rel="stylesheet/scss">
 
 
