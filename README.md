@@ -60,9 +60,9 @@ export default {
 
   Default `{}`.
 
-## 组件props解释
+#### 组件props解释
 
-### shareInfo字段
+##### shareInfo字段
 
 | 字段            | 类型    | 必填 | 描述     |
 | --------------- | ------- | ---- | -------- |
@@ -73,7 +73,7 @@ export default {
 | school_name     | String  | 否   | 分享机构 |
 | speakers        | Object  | 否   | 看下文   |
 
-### speakers字段
+##### speakers字段
 
 | 字段名    | 类型   | 必填 | 描述         |
 | --------- | ------ | ---- | ------------ |
