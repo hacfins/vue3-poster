@@ -75,10 +75,10 @@ export default {
 
 ##### speakers字段
 
-| 字段名    | 类型   | 必填 | 描述         |
-| --------- | ------ | ---- | ------------ |
-| full_name | String | 否   | 分享人的姓名 |
-| avator    | String | 否   | 分享人的头像 |
+| 字段名          | 类型    | 必填 | 描述         |
+| --------------- | ------- | ---- | ------------ |
+| full_name       | String  | 否   | 分享人的姓名 |
+| avator          | String  | 否   | 分享人的头像 |
 
 ## Development
 
