@@ -4,7 +4,7 @@
 ## Demo
 #### <a href="https://ayiaq1.github.io/el-tree-select/storybook-static" target="_blank">在线测试</a>
 ###
-![Image text](https://github.com/hacfins/vue3-poster/blob/b4ac4637c3e92c4a65644bfb1625d1fbaac8a63e/src/assets/demo.gif)
+![Image text]()
 
 ## poster.vue
 
