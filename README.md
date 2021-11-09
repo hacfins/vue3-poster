@@ -1,5 +1,5 @@
 # vue3-poster
-⚡⚡⚡海报组件. 只需要一个简单的 json 配置即可生成你需要的海报...
+⚡⚡⚡海报组件(可适用于移动端), 只需要一个简单的 json 配置即可生成你需要的海报...
 
 ## Demo
 #### <a href="https://ayiaq1.github.io/el-tree-select/storybook-static" target="_blank">在线测试</a>
