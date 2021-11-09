@@ -492,9 +492,8 @@
                 var date_str =  timeCustomFormat(this.shareInfo.start_time,'YYYY-MM-DD HH:mm',true);
                 this.shareInfo.pg_name = this.shareInfo.school_name;
                 this.shareInfo.time = date_str;
-                this.shareInfo.avator = this.shareInfo.speakers[0].avator;
-                this.shareInfo.full_name = this.shareInfo.speakers[0].full_name;
-                this.shareInfo.user_name = this.shareInfo.speakers[0].user_name;
+                this.shareInfo.avator = this.shareInfo.speakers.avator;
+                this.shareInfo.full_name = this.shareInfo.speakers.full_name;
                 this.shareMethod(this.shareInfo)
             },
             imgToBlob (e) {

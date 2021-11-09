@@ -27,10 +27,10 @@
                 share_url:location.origin + '/detail/prepare',//分享地址
                 share_img:'',//分享图片
                 school_name: "孙雪玲测试机构",//分享机构
-                speakers:[{//分享老师
+                speakers:{//分享老师
                     avator: "",
                     full_name: "孙雪玲"
-                }],
+                },
 			}
 
 		}
