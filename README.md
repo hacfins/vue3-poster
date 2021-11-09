@@ -2,7 +2,6 @@
 ⚡⚡⚡海报组件(可适用于移动端), 只需要一个简单的 json 配置即可生成你需要的海报...
 
 ## Demo
-#### <a href="https://ayiaq1.github.io/el-tree-select/storybook-static" target="_blank">在线测试</a>
 ###
 ![Image text](https://github.com/hacfins/vue3-poster/blob/cc500464d7a359bc401e77ddf653ed5c5b46713b/src/assets/demoa.jpg)
 
