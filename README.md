@@ -3,7 +3,7 @@
 
 ## Demo
 ###
-![Image text](https://github.com/hacfins/vue3-poster/blob/cc500464d7a359bc401e77ddf653ed5c5b46713b/src/assets/demoa.jpg)
+![Image text](https://github.com/hacfins/vue3-poster/blob/d54015ae61ae1ced339963c2cfce23f542bfdf73/src/assets/demo.gif)
 
 ## poster.vue
 
