@@ -5,6 +5,9 @@
 ###
 ![Image text](https://github.com/hacfins/vue3-poster/blob/d54015ae61ae1ced339963c2cfce23f542bfdf73/src/assets/demo.gif)
 
+![Image text](https://github.com/hacfins/vue3-poster/blob/d54015ae61ae1ced339963c2cfce23f542bfdf73/src/assets/demo.gif)
+
+
 ## poster.vue
 
 ``` vue
