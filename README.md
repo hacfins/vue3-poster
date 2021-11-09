@@ -5,7 +5,7 @@
 ###
 ![Image text](https://github.com/hacfins/vue3-poster/blob/d54015ae61ae1ced339963c2cfce23f542bfdf73/src/assets/demo.gif)
 
-![Image text](https://github.com/hacfins/vue3-poster/blob/d54015ae61ae1ced339963c2cfce23f542bfdf73/src/assets/demo.gif)
+![Image text](https://github.com/hacfins/vue3-poster/blob/96b72ffcf2fd82404b65955f4d41eebe09f58308/src/assets/sprite.png)
 
 
 ## poster.vue
