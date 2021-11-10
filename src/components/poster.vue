@@ -610,7 +610,6 @@
                     if(this.posterData.poster_img_path){
                         return
                     }
-
                     html2canvas(document.querySelector("#commonPoster"),
                         {allowTaint: true,useCORS:true}).then(canvas => {
                         this.compressImg(canvas.toDataURL('image/jpeg',0.5),(src) => {
