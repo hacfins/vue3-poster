@@ -4,7 +4,6 @@
 
 <script>
     import poster from 'components/poster'
-
 	export default {
         data(){
             return{
