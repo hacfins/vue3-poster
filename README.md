@@ -3,7 +3,7 @@
 
 ## Demo
 ###
-![Image text](https://github.com/hacfins/vue3-poster/blob/d54015ae61ae1ced339963c2cfce23f542bfdf73/src/assets/demo.gif)
+![Image text](https://github.com/hacfins/vue3-poster/raw/master/src/assets/demo.gif)
 
 ### 海报样式
 
