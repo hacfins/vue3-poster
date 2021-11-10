@@ -7,7 +7,7 @@
 
 ### 海报样式
 
-![Image text](https://github.com/hacfins/vue3-poster/blob/96b72ffcf2fd82404b65955f4d41eebe09f58308/src/assets/sprite.png)
+![Image text](https://github.com/hacfins/vue3-poster/raw/master/src/assets/sprite.png)
 
 
 ## poster.vue
