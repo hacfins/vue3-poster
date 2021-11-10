@@ -30,12 +30,7 @@ function getEntrys() {
         // 这里使用filePathList.length是因为路径是动态的，当路径改变时保证我们能取到正确的文件名称
         let fileName     = filePathList[filePathList.length - 2];
         var etToZh       = {
-            'index'  : '首页',
-            'about'  : '关于',
-            'home'   : '家庭',
-            'noexsit': '404',
-            'promote': '升级',
-            'update' : '产品动态',
+            'index'  : '首页'
         }
         var page_title   = etToZh[fileName] ? etToZh[fileName] : '';
         pages[fileName]  = {

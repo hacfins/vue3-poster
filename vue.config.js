@@ -32,10 +32,7 @@ module.exports = {
         //【2】设置扩展，主要是为了cdn 的引入
         config.externals({
             'vue'         : 'Vue',
-            'vue-router'  : 'VueRouter',
-            'axios'       : 'axios',
-            'element-plus': 'ElementPlus',
-            'vuex'        : 'Vuex',
+            'vue-router'  : 'VueRouter'
         });
 
         //【3】设置pug的使用

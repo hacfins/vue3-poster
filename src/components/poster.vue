@@ -171,8 +171,7 @@
 </template>
 
 <script>
-    import {timeCustomFormat,randomPoster,randomBgColor,copy} from '@/config/utils'
-    import { portal} from '@/config/env';
+    import {timeCustomFormat,randomBgColor,copy} from '@/config/utils'
     export default {
         props: {
             shareInfo:{
