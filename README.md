@@ -1,7 +1,7 @@
 # vue3-poster
 ⚡⚡⚡海报组件(可适用于移动端), 只需要一个简单的 json 配置即可生成你需要的海报...
 
-## Demo
+## Demo效果
 ###
 ![Image text](https://github.com/hacfins/vue3-poster/raw/master/src/assets/demo4.gif)
 
