@@ -3,7 +3,7 @@
 
 ## Demo
 ###
-![Image text](https://github.com/hacfins/vue3-poster/raw/master/src/assets/demo3.gif)
+![Image text](https://github.com/hacfins/vue3-poster/raw/master/src/assets/demo4.gif)
 
 ### 海报样式
 
